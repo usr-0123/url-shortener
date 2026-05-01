@@ -1,0 +1,6 @@
+# Copy this file to terraform.tfvars and fill in your values.
+
+subscription_id    = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+environment        = "dev"
+location           = "eastus"
+sql_admin_password = "xxxxxxxxxxxx"   # Use a strong password; store in Key Vault for prod
